@@ -24,8 +24,8 @@ df_geo = pd.DataFrame(
 )
 
 #Writes the DataFrame to disk without adding default numerical row indices
-df_geo.to_csv("data/dim_geografy.csv", index=False)
-print("dim_geografy.cvs created successfully!")
+df_geo.to_csv("data/dim_geography.csv", index=False)
+print("dim_geography.cvs created successfully!")
 
 #Time dimension (Quarters from 2022 to 2024)
 
